@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>learn</artifactId>
-	<version>0.0.5-SNAPSHOT</version>
+	<version>0.0.39-SNAPSHOT</version>
 	<name>learn</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -91,12 +91,6 @@
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<releaseProfiles>releases</releaseProfiles>
 				</configuration>
-				<dependencies>
-					<dependency>
-						<groupId>org.apache.maven.wagon</groupId>
-						<artifactId>wagon-ssh</artifactId>
-					</dependency>
-				</dependencies>
 			</plugin>
 		</plugins>
 	</build>
