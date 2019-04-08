@@ -62,8 +62,20 @@
 		<url>https://github.com/ppopli/learn</url>
 		<developerConnection>scm:git:https://github.com/ppopli/learn.git</developerConnection>
 	  <tag>HEAD</tag>
-  </scm>
+  	</scm>
 
+	<distributionManagement>
+		<repository>
+			<id>releases</id>
+			<name>Local file system</name>
+			<url>/home/pulkitpopli/repository/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Local file system</name>
+			<url>/home/pulkitpopli/repository/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
