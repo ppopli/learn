@@ -66,12 +66,12 @@
 
 	<distributionManagement>
 		<repository>
-			<id>releases</id>
+			<id>releasesRepo</id>
 			<name>Local file system</name>
 			<url>/home/pulkitpopli/repository/releases</url>
 		</repository>
 		<snapshotRepository>
-			<id>snapshots</id>
+			<id>snapshotRepo</id>
 			<name>Local file system</name>
 			<url>/home/pulkitpopli/repository/snapshots</url>
 		</snapshotRepository>
