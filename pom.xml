@@ -68,12 +68,12 @@
 		<repository>
 			<id>releasesRepo</id>
 			<name>Local file system</name>
-			<url>/home/pulkitpopli/repository/releases</url>
+			<url>file:///home/pulkitpopli/repository/releases</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshotRepo</id>
 			<name>Local file system</name>
-			<url>/home/pulkitpopli/repository/snapshots</url>
+			<url>file:///home/pulkitpopli/repository/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<build>
