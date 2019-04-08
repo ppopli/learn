@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>learn</artifactId>
-	<version>0.0.39-SNAPSHOT</version>
+	<version>0.0.39</version>
 	<name>learn</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -61,7 +61,7 @@
 		<connection>scm:git:https://github.com/ppopli/learn.git</connection>
 		<url>https://github.com/ppopli/learn</url>
 		<developerConnection>scm:git:https://github.com/ppopli/learn.git</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>v0.0.39</tag>
   	</scm>
 
 	<distributionManagement>
